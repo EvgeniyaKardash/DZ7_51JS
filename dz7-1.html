@@ -39,11 +39,10 @@
        
        
        
-
          function showBlocks() {
             let res = "";
-            res += "<div style =' "; 
-            res +=`background-color:${showColor()} '>`;
+            res += `<div style ="background-color:${showColor()}">`;
+
             if (pic>11) pic =1;
             res += `<img src="images/${pic++}.jpg">`;
             res += "</div>  ";
